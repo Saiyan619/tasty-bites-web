@@ -1,0 +1,104 @@
+.details-main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(209, 183, 149);
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 79px 84px 17px -75px rgba(0,0,0,0.25);}
+.details-sub-container-left{
+    width: 50%;
+    margin-top: 20px;
+}
+.details-title{font-size: 25px; font-weight: 600; }
+.details-sub-container-right{
+    width: 50%;
+}
+.details-sub_sub-container-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+.details-sub_sub-container-right{
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;  
+}.details-sub_sub-container-right_active{
+    display: none;
+}
+
+.details-image{
+    width: 350px;
+    transition: .4s;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.details-image:hover{
+    width: 370px;
+    transition: .4s;
+}
+
+.ingredient-con{
+    margin-top: 20px;
+}.ingredient-con_active{
+    display: none;
+}
+.ingredients-title{font-size: 25px; font-weight: 500; text-transform: capitalize;}
+li{margin-top: 10px;}
+
+button{
+    padding: 7px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width:800px) {
+    .details-main-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        background-color: rgb(188, 150, 100);
+        margin-top: 25px;
+        border-radius: 15px;
+        box-shadow: 79px 84px 17px -75px rgba(0,0,0,0.25);}
+
+        .details-sub-container-left{
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .details-image{
+            width: 100%;
+            transition: .4s;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }.details-image:hover{
+            width: 100%;
+            transition: .4s;
+        }
+
+        .details-sub_sub-container-left{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-right: 35px;
+        
+        }
+
+        .details-sub-container-right{
+            width: 100%;
+            margin-top: 30px;
+        }
+}

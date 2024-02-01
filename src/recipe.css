@@ -1,0 +1,63 @@
+.recipe-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(247, 245, 245);
+}
+
+.hot-pick-text{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.search-ui{
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: none;
+}.search-ui_active{
+    display: none;
+}
+.search-ui p{text-align: center; color: grey;}
+
+.input-and-btn-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-food-input{
+    width: 50%;
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.search-btn{
+    transition: 1s;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: white;
+    outline: none;
+    border: none;
+    background: #1a2980; 
+  background: -webkit-linear-gradient(to right, #1a2980, #26d0ce); 
+  background: linear-gradient(to right, #1a2980, #26d0ce); 
+}
+.search-btn:hover{
+    transition: 1s;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: white;
+    outline: none;
+    border: none;
+    background: #1a2980; 
+  background: -webkit-linear-gradient(to right, #26d0ce,  #1a2980); 
+  background: linear-gradient(to right, #26d0ce,  #1a2980); 
+}
